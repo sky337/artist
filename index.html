@@ -3,156 +3,279 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajmati Rajaram Harjan | Art Portfolio</title>
+    <title>Rajmati Rajaram Harjan | Artist Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="lightbox/dist/css/lightbox.min.css">
-    <meta name="description" content="Art portfolio of Rajmati Rajaram Harjan - Sketching and Creative Works">
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Official portfolio of Rajmati Rajaram Harjan - Exploding with creativity through sketches and paintings.">
 </head>
 <body>
 
-    <header>
+    <header id="main-header">
         <h1>Rajmati Rajaram Harjan</h1>
     </header>
 
-    <main>
+    <section class="hero">
+        <div class="reveal">
+            <h2>Capturing Souls</h2>
+            <p>Sketch Artist | Storyteller | Dreamer</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="reveal">
+            <h2>About the Artist</h2>
+            <div class="content">
+                <div class="about-text">
+                    <p>Rajmati Rajaram Harjan is a visionary sketch artist whose work bridge the gap between reality and the ethereal. With every stroke of her pencil, she seeks to capture the unspoken emotions and the raw beauty of her subjects.</p>
+                    <p>Based on a deep appreciation for classical techniques, her contemporary approach brings a unique perspective to portraits and nature-inspired themes. Her journey is one of continuous exploration, turning blank canvases into windows of the heart.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/21img.jpeg" alt="Rajmati Rajaram Harjan - Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="gallery-section">
+        <div class="section-title reveal">
+            <h2>The Collection</h2>
+            <p>A curated selection of sketches and paintings</p>
+        </div>
+
         <div class="gallery">
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/1img.jpg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/1img.jpg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <!-- Gallery Items with Overlays and Reveal Class -->
+            <div class="gallery-item reveal">
+                <a href="images/1img.jpg" data-lightbox="artist-collection" data-title="Ethereal Sketch I">
+                    <img src="images/1img.jpg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Ethereal Sketch I</h3>
+                        <p>Graphite on Paper</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/2img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/2img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/2img.jpeg" data-lightbox="artist-collection" data-title="Soulful Gaze">
+                    <img src="images/2img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Soulful Gaze</h3>
+                        <p>Pencil Portrait</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/3img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/3img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/3img.jpeg" data-lightbox="artist-collection" data-title="Nature Bloom">
+                    <img src="images/3img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Nature Bloom</h3>
+                        <p>Detailed Sketch</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/4img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/4img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/4img.jpeg" data-lightbox="artist-collection" data-title="Classic Study">
+                    <img src="images/4img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Classic Study</h3>
+                        <p>Shading Exercise</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/5img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/5img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/5img.jpeg" data-lightbox="artist-collection" data-title="Urban Whisper">
+                    <img src="images/5img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Urban Whisper</h3>
+                        <p>Linework</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/6img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/6img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/6img.jpeg" data-lightbox="artist-collection" data-title="Silent Beauty">
+                    <img src="images/6img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Silent Beauty</h3>
+                        <p>Pencil Art</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/7img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/7img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/7img.jpeg" data-lightbox="artist-collection" data-title="The Visionary">
+                    <img src="images/7img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>The Visionary</h3>
+                        <p>Charcoal on Paper</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/8img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/8img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/8img.jpeg" data-lightbox="artist-collection" data-title="Harmonious Lines">
+                    <img src="images/8img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Harmonious Lines</h3>
+                        <p>Sketch Study</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/9img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/9img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/9img.jpeg" data-lightbox="artist-collection" data-title="Hidden Depth">
+                    <img src="images/9img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Hidden Depth</h3>
+                        <p>Detail View</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/10img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/10img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/10img.jpeg" data-lightbox="artist-collection" data-title="Morning Light">
+                    <img src="images/10img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Morning Light</h3>
+                        <p>Soft Shading</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/11img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/11img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/11img.jpeg" data-lightbox="artist-collection" data-title="Rustic Charm">
+                    <img src="images/11img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Rustic Charm</h3>
+                        <p>Texture Study</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/12img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/12img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/12img.jpeg" data-lightbox="artist-collection" data-title="Endless Path">
+                    <img src="images/12img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Endless Path</h3>
+                        <p>Concept Sketch</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/13img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/13img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/13img.jpeg" data-lightbox="artist-collection" data-title="Ethereal Sketch II">
+                    <img src="images/13img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Ethereal Sketch II</h3>
+                        <p>Graphite</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/14img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/14img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/14img.jpeg" data-lightbox="artist-collection" data-title="Shadow & Light">
+                    <img src="images/14img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Shadow & Light</h3>
+                        <p>Contrast Study</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/15img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/15img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/15img.jpeg" data-lightbox="artist-collection" data-title="The Observer">
+                    <img src="images/15img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>The Observer</h3>
+                        <p>Portrait Sketch</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/16img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/16img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/16img.jpeg" data-lightbox="artist-collection" data-title="Graceful Strokes">
+                    <img src="images/16img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Graceful Strokes</h3>
+                        <p>Art Study</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/17img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/17img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/17img.jpeg" data-lightbox="artist-collection" data-title="Dreamscape">
+                    <img src="images/17img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Dreamscape</h3>
+                        <p>Abstract Sketch</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/18img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/18img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/18img.jpeg" data-lightbox="artist-collection" data-title="Patience">
+                    <img src="images/18img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Patience</h3>
+                        <p>Detailed Work</p>
+                    </div>
                 </a>
             </div>
-            <!-- Missing images 19 can be added here if exists -->
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/20img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/20img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/20img.jpeg" data-lightbox="artist-collection" data-title="Inner Peace">
+                    <img src="images/20img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Inner Peace</h3>
+                        <p>Portrait</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/21img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/21img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/21img.jpeg" data-lightbox="artist-collection" data-title="Reflection">
+                    <img src="images/21img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Reflection</h3>
+                        <p>Conceptual Art</p>
+                    </div>
                 </a>
             </div>
-            <div class="gallery-item">
-                <a class="example-image-link" href="images/22img.jpeg" data-lightbox="example-set" data-title="Sketching">
-                    <img src="images/22img.jpeg" alt="Artwork by Rajmati Rajaram Harjan" />
-                    <div class="caption">Sketching</div>
+            <div class="gallery-item reveal">
+                <a href="images/22img.jpeg" data-lightbox="artist-collection" data-title="The Final Stroke">
+                    <img src="images/22img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>The Final Stroke</h3>
+                        <p>Masterpiece</p>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-item reveal">
+                <a href="images/23img.jpeg" data-lightbox="artist-collection" data-title="Timeless Creation">
+                    <img src="images/23img.jpeg" alt="Artwork by Rajmati Rajaram Harjan">
+                    <div class="overlay">
+                        <h3>Timeless Creation</h3>
+                        <p>Detailed Artwork</p>
+                    </div>
                 </a>
             </div>
         </div>
     </main>
 
-    <footer>
-        <h2>Rajmati Rajaram Harjan</h2>
-        <p>Sketch Artist & Creative Thinker</p>
-        <p style="margin-top: 2rem; font-size: 0.8rem; opacity: 0.5;">&copy; 2024 All Rights Reserved</p>
+    <footer id="contact">
+        <div class="reveal">
+            <h2 class="reveal">Connect with Rajmati</h2>
+            <p class="artist-status">Available for Commissions & Collaborations</p>
+            <div class="social-links">
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="Behance"><i class="fab fa-behance"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:rajmati@example.com" title="Email"><i class="far fa-envelope"></i></a>
+            </div>
+            <p style="font-size: 0.8rem; opacity: 0.4;">&copy; 2024 Rajmati Rajaram Harjan. All Rights Reserved.</p>
+        </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>
+
 
